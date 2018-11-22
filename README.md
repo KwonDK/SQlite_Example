@@ -68,7 +68,7 @@
 <li>양식을 통해 받은 데이터를 실제 db에 어떻게 쓸지 보여주는 클래스입니다.</li>
 </ul>
 <h3 id="mainactivity">MainActivity</h3>
-<p><img src="https://user-images.githubusercontent.com/44791701/48912876-23fe5b80-eeba-11e8-81b6-f996db69d7e1.jpg" alt="1"></p>
+<p><img src="https://user-images.githubusercontent.com/44791701/48912876-23fe5b80-eeba-11e8-81b6-f996db69d7e1.jpg" width="200" height="400"></center></p>
 <ul>
 <li>
 <p>It consists of two buttons, each with a list of tasks to write a new database and to check the database you wrote.</p>
