@@ -186,4 +186,37 @@
 </li>
 </ul>
 <h3 id="read_file">Read_File</h3>
+<ul>
+<li>
+<p>Take the saveddata and navigate the database.</p>
+<pre><code>  con1 = data.getContent1();  
+  con2 = data.getContent2();  
+
+  while (mCursor.moveToNext()) {  
+      String Content1 = mCursor.getString(mCursor.getColumnIndex("content1"));  
+      String Content2 = mCursor.getString(mCursor.getColumnIndex("content2"));  
+  	    if (Content1.equals(con1) &amp;&amp; Content2.equals(con2)) {  
+          content1.setText(mCursor.getString(mCursor.getColumnIndex("content1")));  
+          content2.setText(mCursor.getString(mCursor.getColumnIndex("content2")));  
+          content3.setText(mCursor.getString(mCursor.getColumnIndex("content3")));  
+  }  
+  }
+</code></pre>
+</li>
+<li>
+<p>con1 and con2 receive content1 and content2 from saveddata, respectively.</p>
+</li>
+<li>
+<p>Then compares content1 and content2 in the db and outputs the exact matched columns.</p>
+</li>
+<li>
+<p>saveddata를 받아 데이터베이스를 탐색합니다.</p>
+</li>
+<li>
+<p>con1과 con2는 각각 content1과 content2를 saveddata에서 뽑아와 저장하는 변수입니다.</p>
+</li>
+<li>
+<p>그 이후 db 내의 content1과 content2를 비교하여 정확히 일치하는 열을 출력합니다.</p>
+</li>
+</ul>
 
