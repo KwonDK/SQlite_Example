@@ -7,68 +7,63 @@
 <p>A simple example about SQlite for Android</p>
 <h2 id="what-is-sqlite">What is SQlite?</h2>
 <ul>
-<li>
-<p>SQLite is a database that can be implemented within an Android device.</p>
-</li>
-<li>
-<p>It is basically a two-dimensional table and is used like a table.</p>
-</li>
-<li>
-<p>It is stored in .db file units, so it is easy to back up and restore data to the Internet later.</p>
-</li>
-<li>
-<p>SQlite는 안드로이드 디바이스 내에서 구현할 수 있는 데이터베이스입니다.</p>
-</li>
-<li>
-<p>기본적으로 2차원 테이블로 구성되어 있으며 표처럼 사용하는 방식입니다.</p>
-</li>
-<li>
-<p>SQlite는 .db 파일단위로 저장되어 있으므로 추후에 인터넷에 데이터를 백업했다가 다시 복구하기 용이합니다.</p>
-</li>
+<li>SQLite is a database that can be implemented within an Android device.</li>
+<li>It is basically a two-dimensional table and is used like a table.</li>
+<li>It is stored in .db file units, so it is easy to back up and restore data to the Internet later.</li>
+</ul>
+<hr>
+<ul>
+<li>SQlite는 안드로이드 디바이스 내에서 구현할 수 있는 데이터베이스입니다.</li>
+<li>기본적으로 2차원 테이블로 구성되어 있으며 표처럼 사용하는 방식입니다.</li>
+<li>SQlite는 .db 파일단위로 저장되어 있으므로 추후에 인터넷에 데이터를 백업했다가 다시 복구하기 용이합니다.</li>
 </ul>
 <h2 id="why-do-i-create-this-example-file">Why do I create this example file?</h2>
 <ul>
-<li>
-<p>SQlite is a very good database construction method that is very convenient and has a low probability of error.</p>
-</li>
-<li>
-<p>But creating this requires a lot of process and is actually very complicated.</p>
-</li>
-<li>
-<p>SQliteExample is a practical and powerful example with three units of data.</p>
-</li>
-<li>
-<p>SQlite는 매우 편하고 낮은 오류 확률을 가진 좋은 데이터 베이스 구축방법 입니다.</p>
-</li>
-<li>
-<p>그러나 이것을 만들기 위해서는 많은 과정이 필요하고 실제로 매우 복잡합니다.</p>
-</li>
-<li>
-<p>SQliteExample은 3개의 데이터단위로 되어있는 실용적이고 강력한 예제입니다.</p>
-</li>
+<li>SQlite is a very good database construction method that is very convenient and has a low probability of error.</li>
+<li>But creating this requires a lot of process and is actually very complicated.</li>
+<li>SQliteExample is a practical and powerful example with three units of data.</li>
+</ul>
+<hr>
+<ul>
+<li>SQlite는 매우 편하고 낮은 오류 확률을 가진 좋은 데이터 베이스 구축방법 입니다.</li>
+<li>그러나 이것을 만들기 위해서는 많은 과정이 필요하고 실제로 매우 복잡합니다.</li>
+<li>SQliteExample은 3개의 데이터단위로 되어있는 실용적이고 강력한 예제입니다.</li>
 </ul>
 <h2 id="code">Code</h2>
 <h3 id="information.java">Information.java</h3>
 <ul>
 <li>This class is created to send data to and from parcel.</li>
 <li>I created three data forms (content1, content2, content3).</li>
+</ul>
+<hr>
+<ul>
 <li>parcel로 데이터를 주고받기위해 만든 클래스입니다.</li>
 <li>3개의 데이터 양식을 만들었습니다.(content1, content2, content3)</li>
 </ul>
+<hr>
 <h3 id="dbopenhelper.java">DBOpenHelper.java</h3>
 <ul>
 <li>It is a class that runs DB to open the DB to insert the data received through the information into the .db file (CustomDATABASE (SQLITE) .db).</li>
 <li>Write data through InsertColumn and update the database in real time via UpdateColumn.</li>
+</ul>
+<hr>
+<ul>
 <li>Information.java을 통해 받은 양식에 맞는 데이터를 .db파일(CustomDATABASE(SQLITE).db)에 넣기 위해 DB를 열어주는 역할을 하는 클래스입니다.</li>
 <li>InsertColumn을 통해 데이터를 쓰고 UpdateColumn을 통해 데이터베이스를 실시간으로 업데이트해줍니다.</li>
 </ul>
+<hr>
 <h3 id="databasefile.java">DataBaseFile.java</h3>
+<img width="619" alt="7" src="https://user-images.githubusercontent.com/44791701/48913532-04683280-eebc-11e8-9550-e863a63fc14f.PNG">
 <ul>
 <li>A class that demonstrates how to write data to a real db from a form.</li>
+</ul>
+<hr>
+<ul>
 <li>양식을 통해 받은 데이터를 실제 db에 어떻게 쓸지 보여주는 클래스입니다.</li>
 </ul>
+<hr>
 <h3 id="mainactivity">MainActivity</h3>
-<p><img src="https://user-images.githubusercontent.com/44791701/48912876-23fe5b80-eeba-11e8-81b6-f996db69d7e1.jpg" width="216" height="405"></center></p>
+<p><img src="https://user-images.githubusercontent.com/44791701/48912876-23fe5b80-eeba-11e8-81b6-f996db69d7e1.jpg" alt="1"></p>
 <ul>
 <li>
 <p>It consists of two buttons, each with a list of tasks to write a new database and to check the database you wrote.</p>
@@ -87,15 +82,15 @@
  	});
 </code></pre>
 </li>
-<li>
-<p>두가지 버튼으로 구성되며, 각각 새로운 데이터베이스를 작성하는 버튼,  저장된 데이터베이스를 확인하기 위한 리스트 버튼으로 이루어져 있습니다.</p>
-</li>
-<li>
-<p>Information s1 부분은 실제로 어떤 데이터를 담을 것인지에 관한 '빈 그릇’을 제공합니다.</p>
-</li>
 </ul>
-<h2 id="new_file">New_File</h2>
-<p><img src="https://user-images.githubusercontent.com/44791701/48912589-62474b00-eeb9-11e8-9f75-aad248b9f4b1.jpg" alt="3" width="216" height="405"></center>></p>
+<hr>
+<ul>
+<li>두가지 버튼으로 구성되며, 각각 새로운 데이터베이스를 작성하는 버튼,  저장된 데이터베이스를 확인하기 위한 리스트 버튼으로 이루어져 있습니다.</li>
+<li>Information s1 부분은 실제로 어떤 데이터를 담을 것인지에 관한 '빈 그릇’을 제공합니다.</li>
+</ul>
+<hr>
+<h3 id="new_file">New_File</h3>
+<p><img src="https://user-images.githubusercontent.com/44791701/48912589-62474b00-eeb9-11e8-9f75-aad248b9f4b1.jpg" alt="3"></p>
 <ul>
 <li>
 <p>It is actually a class to write. There are two buttons to save and close. The rest has three EditText sections to hold three pieces of data.</p>
@@ -122,18 +117,16 @@
   }
 </code></pre>
 </li>
-<li>
-<p>실제로 글을 쓰는 파일입니다. 저장과 닫기를 수행하는 두개의 버튼이 있으며 나머지는 3개의 데이터를 담기 위한 3개의 EditText부가 있습니다.</p>
-</li>
-<li>
-<p>saveToList가 가장 중요한 함수인데, 객체로 데이터를 저장 후 이것을 Saved_List.java로 보내는 역할을 합니다.</p>
-</li>
-<li>
-<p>SAVE 버튼을 누를 시 실행되며, 이때 해당 액티비티는 꺼지고 리스트 메뉴가 호출되게 됩니다.</p>
-</li>
 </ul>
+<hr>
+<ul>
+<li>실제로 글을 쓰는 파일입니다. 저장과 닫기를 수행하는 두개의 버튼이 있으며 나머지는 3개의 데이터를 담기 위한 3개의 EditText부가 있습니다.</li>
+<li>saveToList가 가장 중요한 함수인데, 객체로 데이터를 저장 후 이것을 Saved_List.java로 보내는 역할을 합니다.</li>
+<li>SAVE 버튼을 누를 시 실행되며, 이때 해당 액티비티는 꺼지고 리스트 메뉴가 호출되게 됩니다.</li>
+</ul>
+<hr>
 <h3 id="saved_list">Saved_list</h3>
-<p><img src="https://user-images.githubusercontent.com/44791701/48912612-71c69400-eeb9-11e8-9cf2-d5d316ce7180.jpg" alt="4" width="216" height="405"></center></p>
+<p><img src="https://user-images.githubusercontent.com/44791701/48912612-71c69400-eeb9-11e8-9cf2-d5d316ce7180.jpg" alt="4"></p>
 <ul>
 <li>
 <p>Allows the saved data to be output in a list format.</p>
@@ -148,7 +141,7 @@
 </li>
 <li>
 <p>These data chunks are called ‘items’. We sometimes use the wrong data. To clear this, you can use ‘setOnItemLongClickListener’ to delete it by pressing and holding it.<br>
--<img src="https://user-images.githubusercontent.com/44791701/48912667-9458ad00-eeb9-11e8-9120-d22c111dbaa7.jpg" alt="6" width="216" height="406"></center></p>
+-<img src="https://user-images.githubusercontent.com/44791701/48912667-9458ad00-eeb9-11e8-9120-d22c111dbaa7.jpg" alt="6"></p>
 </li>
 <li>
 <p>setListview is responsible for connecting the data to the screen, and it also acts to open Read_File.java, which allows you to view the contents when you click on the item.</p>
@@ -168,6 +161,9 @@
 <li>
 <p>Use saveddata to pass the clicked ID to Read_File.</p>
 </li>
+</ul>
+<hr>
+<ul>
 <li>
 <p>저장된 데이터를 리스트 형태로 출력하도록 합니다.</p>
 </li>
@@ -189,8 +185,9 @@
 <p>saveddata를 이용해 클릭한 ID를 Read_File에 전달합니다.</p>
 </li>
 </ul>
+<hr>
 <h3 id="read_file">Read_File</h3>
-<p><img src="https://user-images.githubusercontent.com/44791701/48912641-81de7380-eeb9-11e8-9cdd-684357904b44.jpg" alt="5" width="216" height="406"></center></p>
+<p><img src="https://user-images.githubusercontent.com/44791701/48912641-81de7380-eeb9-11e8-9cdd-684357904b44.jpg" alt="5"></p>
 <ul>
 <li>
 <p>Take the saveddata and navigate the database.</p>
@@ -214,14 +211,11 @@
 <li>
 <p>Then compares content1 and content2 in the db and outputs the exact matched columns.</p>
 </li>
-<li>
-<p>saveddata를 받아 데이터베이스를 탐색합니다.</p>
-</li>
-<li>
-<p>con1과 con2는 각각 content1과 content2를 saveddata에서 뽑아와 저장하는 변수입니다.</p>
-</li>
-<li>
-<p>그 이후 db 내의 content1과 content2를 비교하여 정확히 일치하는 열을 출력합니다.</p>
-</li>
+</ul>
+<hr>
+<ul>
+<li>saveddata를 받아 데이터베이스를 탐색합니다.</li>
+<li>con1과 con2는 각각 content1과 content2를 saveddata에서 뽑아와 저장하는 변수입니다.</li>
+<li>그 이후 db 내의 content1과 content2를 비교하여 정확히 일치하는 열을 출력합니다.</li>
 </ul>
 
