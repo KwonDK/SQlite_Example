@@ -63,7 +63,7 @@
 </ul>
 <hr>
 <h3 id="mainactivity">MainActivity</h3>
-<p><img src="https://user-images.githubusercontent.com/44791701/48912876-23fe5b80-eeba-11e8-81b6-f996db69d7e1.jpg" alt="1"></p>
+<p><img src="https://user-images.githubusercontent.com/44791701/48912876-23fe5b80-eeba-11e8-81b6-f996db69d7e1.jpg" alt="1" width="216" height="405"></p>
 <ul>
 <li>
 <p>It consists of two buttons, each with a list of tasks to write a new database and to check the database you wrote.</p>
@@ -90,7 +90,7 @@
 </ul>
 <hr>
 <h3 id="new_file">New_File</h3>
-<p><img src="https://user-images.githubusercontent.com/44791701/48912589-62474b00-eeb9-11e8-9f75-aad248b9f4b1.jpg" alt="3"></p>
+<p><img src="https://user-images.githubusercontent.com/44791701/48912589-62474b00-eeb9-11e8-9f75-aad248b9f4b1.jpg" alt="3" width="216" height="405"></p>
 <ul>
 <li>
 <p>It is actually a class to write. There are two buttons to save and close. The rest has three EditText sections to hold three pieces of data.</p>
@@ -126,7 +126,7 @@
 </ul>
 <hr>
 <h3 id="saved_list">Saved_list</h3>
-<p><img src="https://user-images.githubusercontent.com/44791701/48912612-71c69400-eeb9-11e8-9cf2-d5d316ce7180.jpg" alt="4"></p>
+<p><img src="https://user-images.githubusercontent.com/44791701/48912612-71c69400-eeb9-11e8-9cf2-d5d316ce7180.jpg" alt="4" width="216" height="405"></p>
 <ul>
 <li>
 <p>Allows the saved data to be output in a list format.</p>
@@ -141,7 +141,7 @@
 </li>
 <li>
 <p>These data chunks are called ‘items’. We sometimes use the wrong data. To clear this, you can use ‘setOnItemLongClickListener’ to delete it by pressing and holding it.<br>
--<img src="https://user-images.githubusercontent.com/44791701/48912667-9458ad00-eeb9-11e8-9120-d22c111dbaa7.jpg" alt="6"></p>
+-<img src="https://user-images.githubusercontent.com/44791701/48912667-9458ad00-eeb9-11e8-9120-d22c111dbaa7.jpg" alt="6" width="216" height="405"></p>
 </li>
 <li>
 <p>setListview is responsible for connecting the data to the screen, and it also acts to open Read_File.java, which allows you to view the contents when you click on the item.</p>
@@ -187,7 +187,7 @@
 </ul>
 <hr>
 <h3 id="read_file">Read_File</h3>
-<p><img src="https://user-images.githubusercontent.com/44791701/48912641-81de7380-eeb9-11e8-9cdd-684357904b44.jpg" alt="5"></p>
+<p><img src="https://user-images.githubusercontent.com/44791701/48912641-81de7380-eeb9-11e8-9cdd-684357904b44.jpg" alt="5" width="216" height="405"></p>
 <ul>
 <li>
 <p>Take the saveddata and navigate the database.</p>
